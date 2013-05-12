@@ -4,8 +4,8 @@
     <title>The ViewSorcerers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <!-- <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
-    <link href="geo-bootstrap/swatch/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- <link href="geo-bootstrap/swatch/bootstrap.min.css" rel="stylesheet" media="screen"> -->
     <link href="geo-bootstrap/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="geo-bootstrap/test/bootswatch.css" rel="stylesheet">
     <link href="https://plus.google.com/117741825876254094419" rel="publisher"/>
@@ -25,7 +25,8 @@
             <li><a href="#">Pics</a></li>
           </ul>
           <ul class="nav pull-right" id="main-menu-right">
-            <li style="padding-top: 10px">&nbsp;
+            <li style="display:none"><a href="#">Guestbook</a></li>
+            <li style="display: inline-block; padding-top: 10px">&nbsp;
               <div class="g-plusone" data-annotation="bubble" data-width="200" data-size="medium"></div>
             </li>
           </ul>
@@ -50,9 +51,16 @@
 	  </ul>
 
 	  <h2>Contact Us</h2>
-	  <address>
+	  <address style="display:none">
             <img src="geo-bootstrap/img/test/emailme.gif">&nbsp;<a href="mailto:plindner@google.com">Paul</a> or <a href="mailto:messina@google.com">Chris</a>
 	  </address>
+
+	  <address style="display: block">
+	    Paul <div class="g-follow" data-href="https://plus.google.com/117259934788907243749" data-annotation="bubble" data-height="24"></div><br/>
+	    Chris <div class="g-follow" data-href="https://plus.google.com/+ChrisMessina" data-annotation="bubble" data-height="24"></div>
+	  </address>
+
+          <div class="g-follow" data-annotation="bubble" data-height="24" data-href="//oz-autopush.plus.corp.google.com/107786897865850743842" data-rel="author"></div>
 
 	  <p><img src="geo-bootstrap/img/test/counter2.gif"> It will look like this soon if you keep on coming!!</p>
 	  <p>The official ViewSorcerers Website was last updated</p>
